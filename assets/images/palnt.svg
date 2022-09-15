@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85.299" height="69" viewBox="0 0 85.299 69">
+  <defs>
+    <filter id="Ellipse_27" x="9.769" y="0" width="69" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_28" x="0" y="6.488" width="85.299" height="56.575" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="palnt" transform="translate(6 10)">
+    <g id="Group_4" data-name="Group 4" transform="translate(0 0.153)">
+      <circle id="Ellipse_29" data-name="Ellipse 29" cx="22.5" cy="22.5" r="22.5" transform="translate(13.769 -0.153)" fill="#c9c9c9"/>
+      <circle id="Ellipse_24" data-name="Ellipse 24" cx="22.5" cy="22.5" r="22.5" transform="translate(13.769 -0.153)" fill="#c9c9c9"/>
+      <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(0 26.282) rotate(-20)" fill="none" stroke="#707070" stroke-width="1">
+        <ellipse cx="35.007" cy="10.977" rx="35.007" ry="10.977" stroke="none"/>
+        <ellipse cx="35.007" cy="10.977" rx="34.507" ry="10.477" fill="none"/>
+      </g>
+      <circle id="Ellipse_26" data-name="Ellipse 26" cx="22.5" cy="22.5" r="22.5" transform="translate(13.769 -0.153)" fill="#c9c9c9"/>
+      <g transform="matrix(1, 0, 0, 1, -6, -10.15)" filter="url(#Ellipse_27)">
+        <circle id="Ellipse_27-2" data-name="Ellipse 27" cx="22.5" cy="22.5" r="22.5" transform="translate(19.77 10)" fill="#f5b3b3"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -6, -10.15)" filter="url(#Ellipse_28)">
+        <g id="Ellipse_28-2" data-name="Ellipse 28" transform="translate(6 36.43) rotate(-20)" fill="none" stroke="#ff9898" stroke-width="1">
+          <ellipse cx="35.007" cy="10.977" rx="35.007" ry="10.977" stroke="none"/>
+          <ellipse cx="35.007" cy="10.977" rx="34.507" ry="10.477" fill="none"/>
+        </g>
+      </g>
+      <path id="Path_2" data-name="Path 2" d="M21.976,0C34.1,0,43.425,2.529,43.425,6.462S34.1,14.24,21.976,14.24,0,11.926,0,7.993,9.852,0,21.976,0Z" transform="matrix(0.951, -0.309, 0.309, 0.951, 11.75, 16.918)" fill="#f5b3b3"/>
+    </g>
+    <circle id="Ellipse_34" data-name="Ellipse 34" cx="7.5" cy="7.5" r="7.5" transform="translate(20.769 5)" fill="#d68181"/>
+    <ellipse id="Ellipse_35" data-name="Ellipse 35" cx="2.67" cy="1.187" rx="2.67" ry="1.187" transform="translate(40.125 42.436) rotate(-16)" fill="#dd9292"/>
+    <circle id="Ellipse_36" data-name="Ellipse 36" cx="3.5" cy="3.5" r="3.5" transform="translate(16.769 22)" fill="#d68181"/>
+    <circle id="Ellipse_37" data-name="Ellipse 37" cx="7" cy="7" r="7" transform="translate(20.769 5)" fill="#dd9292"/>
+    <circle id="Ellipse_38" data-name="Ellipse 38" cx="3.5" cy="3.5" r="3.5" transform="translate(16.769 22)" fill="#dd9292"/>
+  </g>
+</svg>
