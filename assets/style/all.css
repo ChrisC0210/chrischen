@@ -12675,6 +12675,10 @@ a:hover, a:focus, a:active {
   transform: scale(1.5);
 }
 
+.about-img {
+  max-width: 200px;
+}
+
 .nav-tab .nav-pills .nav-link {
   border: solid 1px #fff;
 }
