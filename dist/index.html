@@ -12,7 +12,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PG51F3C20Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-PG51F3C20Y');
+</script>
 <body>
   <nav class="navbar fixed-top navbar-expand-lg bg-light line-button ">
   <div class="container-fluid container">
@@ -54,11 +62,50 @@
 <section class="bg-light pt-8">
   <div class="container pt-8 pb-8">
     <div class="text-center mb-6">
-      <div class="d-flex justify-content-center flex-column position-relative">
+      <div class="d-flex justify-content-center flex-column position-relative" data-aos="fade-up">
         <h3 class="fs-3 fw-bold text-primary mb-3">
-          Project
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+          </svg>
+          About
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+          </svg>
         </h3>
-        <hr>
+        <!-- <div class="text-line-center"></div> -->
+      </div>
+
+      <div class="row">
+        <div class="d-flex justify-content-center">
+          <div class="card mb-3 border-0 bg-light">
+            <div class="row g-0 about d-flex justify-content-center">
+              <div class="col-md-4">
+                <img class="img-fluid about-img" src="./assets/images/Hello_chiandeye.gif" alt="hi">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body text-start">
+                  <p class="card-text text-primary fs-6 fw-bold">#Web Designer &nbsp; #UI/UX Designer</p>
+                  <p class="card-text text-dark fs-6">A Web designer who can work from receiving the design requirements to designing the web page with RWD.</p>
+                  <p class="card-text text-dark fs-6">Believe No pain, no gain. Even if you fail in the end, you can learn valuable experience from the process.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <hr> -->
+    <div class="text-center mb-6">
+      <div class="d-flex justify-content-center flex-column position-relative">
+        <h3 class="fs-3 fw-bold text-primary mb-3" data-aos="fade-up">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+          </svg>
+          Projects
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+          </svg>
+        </h3>
         <!-- <div class="text-line-center"></div> -->
       </div>
     </div>
@@ -74,8 +121,9 @@
             <div class="card-body p-0 h-100 mb-4 d-flex flex-column">
               <h5 class="card-title mt-2 text-primary fs-7 mb-2 fw-bold">Pet raising information website </h5>
               <div class="mt-auto">
+                <p class="card-text text-dark fs-7 mb-0">- Side Project</p>
                 <p class="card-text text-dark fs-7 mb-0">- Tools: Adobe XD</p>
-                <p class="card-text text-dark fs-7 mb-0">- Language : HTML, CSS</p>
+                <p class="card-text text-dark fs-7 mb-0">- Language : HTML, CSS, JavaScript</p>
                 <p class="card-text text-dark fs-7 mb-0">- include wireframe, Responsive design, HTML layout</p>
               </div>
             </div>
@@ -145,7 +193,7 @@
             <div class="squareRounded squareRounded-bottomRight position-absolute bottom-0 end-0"></div>
             <img src="assets/images/banner02.jpg" class="mb-2 card-img-top rounded-2 card-zoom" alt="圖片">
             <div class="card-body p-0 h-100 mb-4 d-flex flex-column">
-              <h5 class="card-title mt-2 text-primary fs-7 mb-2 fw-bold">CRM Web Design</h5>
+              <h5 class="card-title mt-2 text-primary fs-7 mb-2 fw-bold">St. Paul's College E-shop</h5>
               <div class="mt-auto">
                 <p class="card-text text-dark fs-7 mb-0">- Tools: Adobe XD, Adobe Photoshop, Adobe Illustrator</p>
                 <p class="card-text text-dark fs-7 mb-0">- Language : HTML, CSS, JavaScript</p>

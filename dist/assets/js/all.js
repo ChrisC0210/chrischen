@@ -1,6 +1,10 @@
 "use strict";
 
 $(function () {
-  console.log('Hello Bootstrap5');
+  $(window).on("scroll", function () {
+    AOS.init({
+      easing: 'ease-in-out-sine'
+    });
+  });
 });
 //# sourceMappingURL=all.js.map
